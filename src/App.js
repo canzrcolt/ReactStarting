@@ -1,9 +1,15 @@
-import "./App.css";
+import Buttons from "./components/Buttons";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
-function App() {
-  return <div className="main-text">
-    <h1> we made it here so far</h1>
-  </div>;
+function App({title}) {
+  return (
+    <div className="main-text">
+      <Header tiple='sup'/>
+      <Buttons />
+      <h1>{title}</h1>
+     <Navbar />   
+    </div>
+  );
 }
-
 export default App;

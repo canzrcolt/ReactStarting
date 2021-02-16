@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title='wow This will be jjjjjjjjjjjjjjjjjjun'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
